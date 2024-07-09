@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="bg-body-secondary" style="height: 100vh">
+      <div class="container container-custom py-5">
+        <div class="d-flex d-xl-none justify-content-between mb-3">
+          <h3>Setting</h3>
+          <button
+            class="btn btn-primary d-xl-none px-4"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasResponsive"
+            aria-controls="offcanvasResponsive"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-xl-4">
+            <div
+              class="offcanvas-xl offcanvas-start"
+              tabindex="-1"
+              id="offcanvasResponsive"
+              aria-labelledby="offcanvasResponsiveLabel"
+            >
+              <div class="offcanvas-header m-lg-0 pb-lg-0">
+                <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+                  <i
+                    class="fs-5 fa-solid fa-circle-chevron-left fa-hand-pointer pe-2"
+                  ></i
+                  >Setting
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  data-bs-target="#offcanvasResponsive"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body rounded-3">
+                <div class="bg-white p-3 p-xl-3 pt-lg-2 pt-md-0 pt-sm-0">
+                  <p>Setting</p>
+                  <ul class="ps-1">
+                    <li>
+                      <a href="#">
+                        <i class="me-2 fa-solid fa-gear"></i>Group
+                        Information</a
+                      >
+                    </li>
+                  </ul>
+                  <p class="mt-0 mb-1">Admin tool</p>
+                  <ul class="ps-1">
+                    <li class="position-relative">
+                      <a href="#">
+                        <i class="me-2 fa-regular fa-user"></i>Manage members</a
+                      >
+                      <span
+                        class="bg-success text-white text-center position-absolute end-0 me-1"
+                        style="border-radius: 50%; width: 25px; height: 25px"
+                        >9+</span
+                      >
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="me-2 fa-regular fa-file"></i>Manage
+                        Contents</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="me-2 fa-solid fa-triangle-exclamation"></i
+                        >Reports</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="me-2 fa-solid fa-chart-line"></i>Activity
+                        log</a
+                      >
+                    </li>
+                  </ul>
+                  <p class="mt-0 mb-1">Group Removal</p>
+                  <ul class="ps-1">
+                    <li>
+                      <a href="#">
+                        <i class="me-2 fa-solid fa-trash"></i>Delete Group</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-8 mx-lg-auto">
+            <div class="rounded-3 bg-white">
+              <h3 class="p-3 border-bottom">Manage Contents</h3>
+              <div
+                class="Mc-img d-flex justify-content-center align-items-center flex-column"
+              >
+                <img src="https://www.cutlabx.com/image/no-data.svg" alt="" />
+                <p class="text-secondary">No results found</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

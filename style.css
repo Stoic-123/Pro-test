@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 8px 10px;
+  width: 100%;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+ul li:hover {
+  background-color: rgb(234, 234, 234);
+  cursor: pointer;
+}
+.col-4 {
+  width: 28%;
+  height: 480px;
+}
+.col-8 {
+  width: 70%;
+  height: 580px;
+}
+.Mc-img img {
+  line-height: 400px;
+  width: 400px;
+  height: 400px;
+}
+.offcanvas-xl .offcanvas-body {
+  display: block;
+}
+.bg-body-secondary {
+  background-color: #f8f9fa;
+}
+.container-custom {
+  max-width: 1200px;
+}
+.offcanvas-title i {
+  cursor: pointer;
+}
+.offcanvas-body {
+  padding-top: 0;
+}
